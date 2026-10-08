@@ -1,0 +1,4 @@
+.tipa-credit { display: inline-flex; width: fit-content; min-height: 42px; align-items: center; gap: 8px; color: inherit; font-size: 10px; font-weight: 400; line-height: 1; letter-spacing: .04em; text-transform: none; text-decoration: none; white-space: nowrap; }
+.tipa-credit img { display: block; width: 64px; height: 42px; max-width: none; object-fit: contain; }
+.tipa-credit:hover span { text-decoration: underline; text-underline-offset: 3px; }
+.tipa-credit:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; border-radius: 4px; }

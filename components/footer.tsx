@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import "./tipa-credit.css"
 import Image from "next/image"
 import { useLanguage } from "@/contexts/language-context"
 
@@ -113,6 +114,10 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
           <p>{t.rights}</p>
+          <a className="tipa-credit" href="https://tipa.uz/ru" target="_blank" rel="nofollow noopener noreferrer" aria-label="Сайт разработан агентством TIPA">
+            <span>Сделано</span>
+            <img src="/media/tipa-agency-animated.svg" alt="TIPA" width={64} height={42} />
+          </a>
         </div>
       </div>
     </footer>
