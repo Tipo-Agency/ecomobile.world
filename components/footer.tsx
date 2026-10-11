@@ -24,6 +24,7 @@ export default function Footer() {
       phone: "+998 90 175 67 07",
       address: "Ташкент, Узбекистан",
       rights: "© 2025 EcoMobile. Все права защищены.",
+      credit: "Разработка сайта — TIPA",
     },
     uz: {
       description: "Ekologik transport uchun innovatsion yechimlar",
@@ -40,6 +41,7 @@ export default function Footer() {
       phone: "+998 90 175 67 07",
       address: "Toshkent, O'zbekiston",
       rights: "© 2025 EcoMobile. Barcha huquqlar himoyalangan.",
+      credit: "Sayt yaratish — TIPA",
     },
     en: {
       description: "Innovative solutions for eco-friendly transport",
@@ -56,6 +58,7 @@ export default function Footer() {
       phone: "+998 90 175 67 07",
       address: "Tashkent, Uzbekistan",
       rights: "© 2025 EcoMobile. All rights reserved.",
+      credit: "Website by TIPA",
     },
   }
 
@@ -114,9 +117,9 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
           <p>{t.rights}</p>
-          <a className="tipa-credit" href="https://tipa.uz/ru" target="_blank" rel="nofollow noopener noreferrer" aria-label="Сайт разработан агентством TIPA">
-            <span>Сделано</span>
-            <img src="/media/tipa-agency-animated.svg" alt="TIPA" width={64} height={42} />
+          <a className="tipa-credit" href="https://tipa.uz/ru/services/web" target="_blank" rel="noopener">
+            <span>{t.credit}</span>
+            <img src="/media/tipa-agency-animated.svg" alt="" width={64} height={42} />
           </a>
         </div>
       </div>
